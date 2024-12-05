@@ -18,7 +18,7 @@ class _MainNavigationState extends State<MainNavigation> {
 
   final List<Widget> _pages = [
     HomeView(),
-    const TrendyolgoView(),
+    TrendyolgoView(),
     const FavoriView(),
     const BasketView(),
     const ProfileView()

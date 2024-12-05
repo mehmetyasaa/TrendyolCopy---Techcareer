@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trendyol_copy/core/constan/products.dart'; 
+import 'package:trendyol_copy/core/constant/products.dart'; 
 import 'package:trendyol_copy/features/home/widgets/product_card.dart';
 
 class ProductListWidgets extends StatelessWidget {

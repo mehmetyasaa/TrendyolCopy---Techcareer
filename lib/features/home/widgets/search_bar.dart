@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:trendyol_copy/core/constan/colors.dart';
+import 'package:trendyol_copy/core/constant/colors.dart';
 
 class SearchBarWidget extends StatelessWidget {
   const SearchBarWidget({super.key});

@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:trendyol_copy/core/constan/assets.dart';
+import 'package:trendyol_copy/core/constant/assets.dart';
 
 class ImageSliderDemo extends StatelessWidget {
   const ImageSliderDemo({super.key});

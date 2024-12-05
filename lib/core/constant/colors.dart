@@ -5,4 +5,5 @@ class AppColors {
   static const Color whiteBackGroundColor = Colors.white;
   static const Color shadowGrey = Color.fromARGB(255, 224, 224, 224);
   static const Color customOrange = Color.fromRGBO(245, 124, 0, 1);
+  static const Color customGreen = Color.fromARGB(255, 46, 184, 38);
 }

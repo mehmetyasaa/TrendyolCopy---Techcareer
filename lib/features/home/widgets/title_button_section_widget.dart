@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trendyol_copy/core/constan/colors.dart';
+import 'package:trendyol_copy/core/constant/colors.dart';
 
 class TitleButtonSection extends StatelessWidget {
   const TitleButtonSection({

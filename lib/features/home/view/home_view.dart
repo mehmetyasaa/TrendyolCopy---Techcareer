@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:trendyol_copy/core/constan/colors.dart';
+import 'package:trendyol_copy/core/constant/colors.dart';
 import 'package:trendyol_copy/features/home/controller/home_controller.dart';
 import 'package:trendyol_copy/features/home/widgets/category_slider.dart';
 import 'package:trendyol_copy/features/home/widgets/flash_sales_widget.dart';
@@ -63,6 +63,7 @@ class HomeView extends StatelessWidget {
                       ProductListWidgets(
                         selectedCategory: controller.categories[index],
                       ),
+                      
                       FlashSalesWidget(
                         selectedCategory: controller.categories[index],
                       )

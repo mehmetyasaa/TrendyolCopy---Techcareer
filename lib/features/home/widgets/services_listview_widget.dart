@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:trendyol_copy/core/constan/assets.dart';
+import 'package:trendyol_copy/core/constant/assets.dart';
 import 'package:trendyol_copy/core/models/service_item_model.dart';
 
 class ServiceWidget extends StatelessWidget {

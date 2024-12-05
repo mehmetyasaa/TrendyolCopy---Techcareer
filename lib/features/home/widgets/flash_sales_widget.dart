@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:trendyol_copy/core/constan/products.dart';
+import 'package:trendyol_copy/core/constant/products.dart';
 import 'package:trendyol_copy/features/home/widgets/product_card.dart';
 import 'package:trendyol_copy/features/home/widgets/timer_widget.dart';
 
