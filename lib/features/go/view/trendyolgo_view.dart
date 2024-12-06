@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:trendyol_copy/core/constant/colors.dart';
 import 'package:trendyol_copy/features/go/widgets/custom_image_container_widgets.dart';
 import 'package:trendyol_copy/features/go/widgets/go_custom_card_widgets.dart';
@@ -13,9 +14,9 @@ class TrendyolgoView extends StatelessWidget {
         appBar: PreferredSize(
           preferredSize: const Size.fromHeight(20),
           child: AppBar(
-            title: const Text(
-              "Trendyol Go",
-              style: TextStyle(fontSize: 18),
+            title: Text(
+              'nav.go'.tr,
+              style: const TextStyle(fontSize: 18),
             ),
           ),
         ),
@@ -29,18 +30,18 @@ class TrendyolgoView extends StatelessWidget {
                 btnColor: AppColors.customGreen,
                 boxShadowColor:
                     const Color.fromARGB(255, 28, 210, 58).withOpacity(0.4),
-                buttonText: 'Market siparişi ver!',
+                buttonText: 'go.order_groceries'.tr,
                 containerColor: const Color.fromARGB(255, 239, 253, 241),
                 imagePath: 'assets/images/sepet.png',
-                subTitle: 'hızlı market',
+                subTitle: 'go.fast_market'.tr,
               ),
-              const CustomCard(
+              CustomCard(
                 boxShadowColor: AppColors.customOrange,
                 btnColor: AppColors.customOrange,
-                buttonText: 'Yemek siparişi ver!',
-                containerColor: Color.fromARGB(255, 255, 250, 240),
+                buttonText: 'go.Order_food!'.tr,
+                containerColor: const Color.fromARGB(255, 255, 250, 240),
                 imagePath: 'assets/images/singleBurger.png',
-                subTitle: 'yemek',
+                subTitle: 'home.category.food'.tr,
               ),
             ],
           ),

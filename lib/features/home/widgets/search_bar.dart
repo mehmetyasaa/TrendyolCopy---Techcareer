@@ -6,9 +6,11 @@ class SearchBarWidget extends StatelessWidget {
   const SearchBarWidget({
     super.key,
     required this.isProductPage,
+    this.onChanged,
   });
 
   final bool isProductPage;
+  final Function(String)? onChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +32,8 @@ class SearchBarWidget extends StatelessWidget {
           fillColor: Colors.grey[100],
           filled: true,
         ),
+        onChanged:
+            onChanged, // Arama kutusuna her şey yazıldıkça bu fonksiyon çalışacak
       ),
     );
   }

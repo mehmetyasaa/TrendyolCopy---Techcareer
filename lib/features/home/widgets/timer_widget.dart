@@ -4,6 +4,7 @@ class TimerWidget extends StatefulWidget {
   const TimerWidget({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _TimerWidgetState createState() => _TimerWidgetState();
 }
 

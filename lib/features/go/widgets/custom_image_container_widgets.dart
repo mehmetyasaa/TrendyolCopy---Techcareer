@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:trendyol_copy/core/constant/size.dart';
 
 class CustomImageContainer extends StatelessWidget {
@@ -27,12 +28,12 @@ class CustomImageContainer extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const SizedBox(
+                SizedBox(
                   width: 100,
                   child: Text(
                     maxLines: 2,
-                    "Su ve Damacana",
-                    style: TextStyle(
+                    'go.Water_and_Bottle'.tr,
+                    style: const TextStyle(
                       fontSize: 14,
                       fontWeight: FontWeight.bold,
                     ),
@@ -45,9 +46,9 @@ class CustomImageContainer extends StatelessWidget {
                           borderRadius: AppSize.halfRadius),
                     ),
                     onPressed: () {},
-                    child: const Text(
-                      "Su siparişi ver!",
-                      style: TextStyle(
+                    child: Text(
+                      'go.Order_water!'.tr,
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 15,
                         fontWeight: FontWeight.w700,

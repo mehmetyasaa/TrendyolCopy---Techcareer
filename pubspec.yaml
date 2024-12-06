@@ -42,6 +42,8 @@ dependencies:
   #State Manage / Life Cycle
   get: ^4.6.6
 
+  #Splash
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

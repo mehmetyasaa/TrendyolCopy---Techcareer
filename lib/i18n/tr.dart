@@ -21,4 +21,12 @@ const Map<String, String> tr = {
   'nav.favorites': 'Favorilerim',
   'nav.basket': 'Sepetim',
   'nav.profile': 'Hesabım',
+  'go.order_groceries': 'Market siparişi ver!',
+  'go.fast_market': 'hızlı market',
+  'go.Order_food': 'Yemek siparişi ver!',
+  'go.Water_and_Bottle': 'Su ve Damacana',
+  'go.Order_water!': 'Su siparişi ver!',
+  'go.Come Nowe': 'Hemen Gelsin',
+  'go.go_fast': 'go hızlıyla',
+  'go.Come_at_any_time_you_want!': 'Dilediğin saatte gelsin!',
 };

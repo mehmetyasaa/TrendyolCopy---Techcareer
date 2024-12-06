@@ -1,4 +1,4 @@
-const Map<String, String> en = {
+const Map<String, String> en = <String, String>{
   'app_title': 'Trendyol Copy',
   'home.categories': 'Categories',
   'home.flash_sales': 'Flash Sales',
@@ -16,10 +16,17 @@ const Map<String, String> en = {
   'category.home_and_life': 'Home And Life',
   'category.home.electronic': 'Electronic',
   'category.home.supermarket': 'Supermarket',
-  'nav.home':'Home',
-  'nav.go':'Trendyol Go',
-  'nav.favorites':'Favorites',
-  'nav.basket':'Basket',
-  'nav.profile':'Profile',
-
+  'nav.home': 'Home',
+  'nav.go': 'Trendyol Go',
+  'nav.favorites': 'Favorites',
+  'nav.basket': 'Basket',
+  'nav.profile': 'Profile',
+  'go.order_groceries': 'Order groceries!',
+  'go.fast_market': 'fast market',
+  'go.Order_food': 'Order food!',
+  'go.Water_and_Bottle': 'Water and Bottle',
+  'go.Order_water!': 'Order water!',
+  'go.Come_Now': 'Come Now',
+  'go.go_fast': 'go fast',
+  'go.Come_at_any_time_you_want!': 'Come at any time you want!',
 };

@@ -16,8 +16,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSize {
     return AppBar(
       elevation: 0,
       backgroundColor: AppColors.whiteBackGroundColor,
-      // automaticallyImplyLeading:
-      //     isProductPage, //product detay sayfasında ise geri dönüş butonu ekler
       title: Row(
         children: [
           Expanded(
@@ -39,5 +37,5 @@ class CustomAppBar extends StatelessWidget implements PreferredSize {
   Widget get child => throw UnimplementedError();
 
   @override
-  Size get preferredSize => const Size.fromHeight(60.0);
+  Size get preferredSize => const Size.fromHeight(50.0);
 }
