@@ -3,7 +3,7 @@ import 'package:trendyol_copy/core/constant/products.dart';
 import 'package:trendyol_copy/features/home/widgets/product_card.dart';
 
 class ProductListWidgets extends StatelessWidget {
-  final String selectedCategory; // Seçilen kategori
+  final String selectedCategory; 
 
   const ProductListWidgets({
     super.key,

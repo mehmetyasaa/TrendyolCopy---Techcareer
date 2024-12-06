@@ -3,12 +3,18 @@ import 'package:get/get.dart';
 import 'package:trendyol_copy/core/constant/colors.dart';
 
 class SearchBarWidget extends StatelessWidget {
-  const SearchBarWidget({super.key});
+  const SearchBarWidget({
+    super.key,
+    required this.isProductPage,
+  });
+
+  final bool isProductPage;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 40,
+      width: isProductPage ? 150 : double.infinity,
       child: TextField(
         decoration: InputDecoration(
           hintText: 'home.search_hintText'.tr,

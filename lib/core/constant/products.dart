@@ -30,6 +30,13 @@ final List<Product> products = [
     title: 'riccon Siyah Cild Kadın Çizme 0012360',
     category: 'category.woman'.tr,
     price: 679,
+    rating: 4.5,
+    ratingList: ["Güzel", "Çok beğendim"],
+    features: [
+      {'Materyal': 'Suni Deri'},
+      {'Topuk Boyu': 'Kısa Topuklu (1-4 cm)'},
+      {'Topuk Tipi': 'Düz Topuklu'},
+    ],
   ),
   Product(
     image: 'assets/images/products/kadın2.jpg',
