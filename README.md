@@ -34,15 +34,16 @@ Projede geliştirilen özelliklerin ve görsel öğelerin hayata geçirilmesi i�
 ## 📱 Uygulama Ekran Görüntüleri  
 
 ### **Ana Sayfa**  
-![Ana Sayfa 1](https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/home1.png?raw=true)  
-![Ana Sayfa 2](https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/home2.png?raw=true)  
+<img src="https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/home1.png?raw=true" alt="Ana Sayfa 1" width="300"/>  
+<img src="https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/home2.png?raw=true" alt="Ana Sayfa 2" width="300"/>  
 
 ### **TrendyolGo**  
-![TrendyolGo](https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/go.png?raw=true)  
+<img src="https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/go.png?raw=true" alt="TrendyolGo" width="300"/>  
 
 ### **Ürün Detay Sayfası**  
-![Ürün Detay 1](https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/product1.png?raw=true)  
-![Ürün Detay 2](https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/product.png?raw=true)  
+<img src="https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/product1.png?raw=true" alt="Ürün Detay 1" width="300"/>  
+<img src="https://github.com/mehmetyasaa/TrendyolCopy---Techcareer/blob/main/assets/AppScreens/product.png?raw=true" alt="Ürün Detay 2" width="300"/>  
+
 
 
 ---
