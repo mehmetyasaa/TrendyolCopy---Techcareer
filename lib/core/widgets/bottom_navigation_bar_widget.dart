@@ -28,7 +28,10 @@ class BottomNavigationBarWidget extends StatelessWidget {
           label: 'nav.home'.tr,
         ),
         BottomNavigationBarItem(
-          icon: const Icon(Icons.circle_outlined),
+          icon: const ImageIcon(
+            AssetImage('assets/images/go.png'),
+            size: 25,
+          ),
           label: 'nav.go'.tr,
         ),
         BottomNavigationBarItem(
